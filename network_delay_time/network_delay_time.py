@@ -1,6 +1,7 @@
 import heapq
 import math
 from itertools import repeat
+from typing import List
 
 
 class Solution:
