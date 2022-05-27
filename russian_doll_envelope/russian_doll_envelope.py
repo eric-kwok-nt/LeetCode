@@ -13,7 +13,7 @@ class Solution:
                 height_list.append(height)
             else:
                 # Target index always point to height element >= current height
-                # Aims to overwrite envelope of smaller width with larger height
+                # Aims to record the best combination of envelope heights
                 height_list[target_idx] = height
 
         return len(height_list)
