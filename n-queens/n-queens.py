@@ -25,8 +25,8 @@ class Solution:
 
         Args:
             queens (List[int]): queens[0] == 1 means queen is
-            queens_set (Set[int]): set of all queens
             located at row 0 col 1
+            queens_set (Set[int]): set of all queens
             xy_diff (Set[int]): Set of all (x - y)
             xy_sum (Set[int]): Set of all (x + y)
         """
