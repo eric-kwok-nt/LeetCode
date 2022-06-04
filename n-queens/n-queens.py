@@ -27,8 +27,8 @@ class Solution:
             queens (List[int]): queens[0] == 1 means queen is
             queens_set (Set[int]): set of all queens
             located at row 0 col 1
-            xy_diff (List[int]): List of all x - y
-            xy_sum (List[int]): List of all x + y
+            xy_diff (Set[int]): Set of all (x - y)
+            xy_sum (Set[int]): Set of all (x + y)
         """
         p = len(queens)
         if p == self.n:
