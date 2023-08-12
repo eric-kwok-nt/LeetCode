@@ -21,7 +21,7 @@ class Solution:
                         num_trees[product] += num_trees[arr[i]] * num_trees[arr[j]] * 2
                 j += 1
             i += 1
-        return sum(num_trees.values()) % (10**9 + 7)
+        return sum(num_trees.values()) % (10 ** 9 + 7)
 
 
 if __name__ == "__main__":

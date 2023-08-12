@@ -6,8 +6,12 @@ class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
+
 class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    def addTwoNumbers(
+        self, l1: Optional[ListNode], l2: Optional[ListNode]
+    ) -> Optional[ListNode]:
         Result = ListNode()
         CurrResult = Result
         while True:
@@ -34,6 +38,7 @@ class Solution:
 
             CurrResult = NextResult
 
+
 def create_linked_list(arr: list):
     Output = ListNode()
     CurrNode = Output
@@ -47,11 +52,11 @@ def create_linked_list(arr: list):
     return Output
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # arr1 = [2, 4, 3]
     # arr2 = [5, 6, 4]
-    arr1 = [9,9,9,9,9,9,9] 
-    arr2 = [9,9,9,9]
+    arr1 = [9, 9, 9, 9, 9, 9, 9]
+    arr2 = [9, 9, 9, 9]
     # arr1 = [0]
     # arr2 = [0]
     l1 = create_linked_list(arr1)
@@ -67,5 +72,3 @@ if __name__ == '__main__':
         else:
             print(result_list)
             break
-                
-                
